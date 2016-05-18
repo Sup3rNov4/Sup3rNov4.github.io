@@ -36,6 +36,7 @@
 
 <body id="page-top">
 
+
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -75,7 +76,7 @@
         <div class="header-content">
             <div class="header-content-inner">
                 <h1 class="main-header">Jae Byun</h1>
-                <hr>
+                <hr class="light">
                 <h2 class="main-h2">Sydney based</h2>
                 <h2 class="main-h2">Junior Web Developer</h2>
                 <a href="#about" class="btn btn-primary btn-l page-scroll" id="about-me">About Me</a>
@@ -113,7 +114,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading" id="skills-head">Skills</h2>
-                    <hr class="primary">
+                    <hr class="light">
                 </div>
             </div>
         </div>
@@ -234,7 +235,7 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2 style="font-size:40px;">Projects</h2>
-                <hr>
+                <hr class="light">
                 <a href="https://github.com/SUP3RNOV4" target="blank" class="btn btn-default btn-xl wow tada" style="margin-top: 2%; background-color:rgba(50, 103, 78, 0.76); color:lavender;">Github</a>
             </div>
         </div>
@@ -314,7 +315,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading" style="font-size: 35px;">Let's Get In Touch</h2>
-                    <hr class="primary">
+                    <hr class="light">
                     <p class="contact-p">Contact</p>
                 </div>
                 <div class="col-lg-3 text-center">
@@ -353,6 +354,16 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".light").on("mouseover", function(){
+        console.log("moused over");
+        $(".light").style.width = "100%";
+
+      });
+    });
+  </script>
 
 </body>
 

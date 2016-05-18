@@ -20,8 +20,13 @@ hr {
     border-width: 3px;
 }
 
-hr.light {
+/*hr.light {
     border-color: #f05f40;
+}*/
+
+hr.light:hover {
+   transition: width 1s ease-in-out;
+   width:100%;
 }
 
 a {
