@@ -193,6 +193,12 @@ a:focus {
   background-size: cover;
 }
 
+.img-responsive {
+  width: 640px;
+  height: 344.61px;
+  background-size: cover;
+}
+
 h1,
 h2,
 h3,
